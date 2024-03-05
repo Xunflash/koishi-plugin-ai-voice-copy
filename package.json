@@ -1,0 +1,46 @@
+{
+  "name": "koishi-plugin-ai-voice-copy",
+  "description": "创建huggingface.co API的AI音频(电棍/永雏塔菲...)并且发送语音消息 | Create AI audio (otto/taffy...) from the huggingface.co API and send voice messages",
+  "version": "1.0.2",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "contributors": [
+    "woodwhale <woodwhale@qq.com>",
+    "xunflash <xunflash@qq.com>"
+  ],
+  "koishi": {
+    "description": {
+      "en": "Create AI audio (otto/taffy...) from the huggingface.co API and send voice messages",
+      "zh": "创建huggingface.co API的AI音频(电棍/永雏塔菲...)并且发送语音消息"
+    },
+    "locales": [
+      "zh"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xunflash/koishi-plugin-ai-voice-copy.git"
+  },
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "AI",
+    "voice"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.15.0"
+  },
+  "dependencies": {
+    "@gradio/client": "^0.5.1"
+  },
+  "devDependencies": {
+    "@gradio/client": "^0.5.1"
+  }
+}
